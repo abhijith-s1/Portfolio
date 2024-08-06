@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    background-color:transparent;
+}
+nav{
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: sticky;
+    top: 0%;
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+nav ul li a{
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+nav ul li a:hover{
+    text-shadow: 0px 0px 5px rgb(255, 0, 0);
+    text-decoration:underline;
+
+}
+video{
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20%;
+}
+.overlay{
+    position: absolute;
+    top: 45%;
+    left: 70%;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size:50px;
+}
+
+h1:hover{
+    color: rgb(136, 40, 16);
+    text-shadow: 0px 0px 7px;
+}
+span{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#home{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+#home::before{
+    content: "";
+    background-image: url(https://static1.srcdn.com/wordpress/wp-content/uploads/2021/11/Samuel-L-Jackson-as-old-Nick-Fury-in-Secret-Invasion.jpeg);
+    height: 100%;
+    background-size: cover ;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+.main{
+    padding: 10px;
+    display: flex;
+    position: absolute;
+    height: 0px;
+    /* left: 15%; */
+    right: 70%;
+    margin-top: 20%;
+
+
+
+}
+.main:hover{
+    text-decoration: underline;
+    text-shadow: 0px 3px 7px white;
+    scale: 1.05;
+}
+h3{
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    font-style:normal;
+    text-align: center;
+
+    transition: width 2s, height 2s, transform 2s;
+}
+h3:hover {
+
+    transform: rotate(360deg);
+  }
+
+.pic{
+    display: flex;
+}
+.pic video{
+    width: 350px;
+    height: 400px;
+
+
+}
+.pic h4{
+    color: rgb(56, 15, 158);
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.pic p{
+    text-align: justify;
+    margin: 10px;
+
+
+}
+.gallery{
+    margin: 20px;
+}
+
+.gallery img{
+    width: 400px;
+    margin: 5px;
+    margin-left: 50px;
+    padding: 5px;
+    border-radius: 20%;
+}
+.gallery img:hover{
+    scale: 1.05;
+    box-shadow: 0px 0px 6px 7px rgb(88, 84, 80);
+
+}
+.pic p:hover{
+    scale: 1.05;
+}
+.pic h4:hover{
+    scale:2.05;
+    text-shadow: 0px 0px 7px black;
+}
+.row{
+    display: flex;
+    margin-top: 5px;
+}
+.box{
+    width: 350px;
+    height: 450px;
+    border: 3px ridge black;
+    margin: 5px;
+    align-items: center;
+    background: linear-gradient(to top, rgb(250, 2, 2)50%,rgb(57, 72, 207)50%);
+    background-size:100% 200% ;
+    transition: all 1.0s;
+    border-radius: 20%;
+}
+.box:hover{
+    background-position:right bottom;
+    filter: drop-shadow(3px 4px 20px rgb(0, 0, 0));
+}
+.box img{
+    width: 350px;
+    padding: 10px;
+}
+.box p{
+    text-align: justify;
+    padding: 5px;
+}
+.box h5{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 3px 4px rgb(0, 0, 0);
+}
+h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+
+}
+.cv{
+    background-color: rgb(198, 7, 7);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 36.5%;
+    display: flex;
+    align-content: center; 
+    width: 10%;
+    border-radius: 30%;
+    margin-bottom: 30px;
+}
+.cv:hover{
+    scale:1.05;
+    box-shadow: 0px 0px 7px 3px black;
+}
+.contact{
+    margin-top: 60px;
+    
+}
